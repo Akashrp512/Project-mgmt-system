@@ -12,7 +12,6 @@ const app = express();
 
 //connect to database
 connectDB();
-
 app.use(cors());
 app.use('/graphql', graphqlHTTP({
 schema, 
